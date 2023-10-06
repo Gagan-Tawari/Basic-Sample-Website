@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body{
+            padding: 0%;
+            margin: 0%;
+        }
+        .container{
+           background-color: rgb(63, 63, 63);
+
+           
+        }
+        .in{
+            display: inline-block;
+            color: white;
+            height: 1cm;
+            width: 10cm;
+            background-color: rgb(92, 92, 93);
+            text-align: center;
+            font-size: large;
+            margin-top: 1cm;
+            border: 0cm;
+            border-radius: 10cm;
+        }
+        .out{
+            display: inline;
+            height: 1cm;
+            width: 20cm;
+            box-sizing: border-box;
+            font-size: large;
+            border-radius: 10cm;
+            border: 0cm;
+            text-align: center;
+
+        }
+        .reset{
+            margin-top: 2cm;
+            height: 1cm;
+            width: 4cm;
+            box-sizing: border-box;
+            background-color: rgb(13, 13, 13);
+            border-radius: 10cm;
+            border: 0cm;
+            margin-bottom: 6.3cm;
+            color: white;
+
+        }
+        .reset:hover{
+           opacity: 0.8;
+        }
+        
+    
+    </style>
+</head>
+<div class="container">
+<body>
+    <h1>Contact US</h1>
+        <form action="abc">
+            <label for="name" class="in" > First Name :</label>
+            <input type="text" name="text" id="text" placeholder="Enter Your First Name " class="out"><br>
+
+            <label for="name" class="in" > Last Name :</label>
+            <input type="text" name="text" id="text" placeholder="Enter Your Last Name" class="out"><br>
+
+            <label for="Age" class="in"> Date Of Birth :</label>
+            <input type="date" name="date" id="dob" class="out"><br>
+
+            <label for="gender" class="in">Gender :</label>
+            
+           Male <input type="radio" name="o" id="m" >
+            | Female<input type="radio" name="o" id="f">
+           | Other <input type="radio" name="o" id="o"><br>
+
+           <label for="mail" class="in">Email Id :</label>
+           <input type="email" name="email" id="email" class="out" placeholder="Enter Your Email Id "> <br>
+
+           <label for="no" class="in">Mobile No :</label>
+           <input type="number" name="no" id="no" class="out" placeholder="Enter Your Mobile No "><br>
+
+           <label for="diss" class="in"> Reason To Contact :</label>
+           <textarea name="re" id="re" cols="30" rows="10" class="out" placeholder="Reason To Contact" class="out"></textarea><br>
+    
+
+           <input class="reset" type="reset" value="Reset">
+           <input type="submit" class="reset" value="Submit">
+
+        </form>
+        
+    </body>
+</div>
+    </html>
